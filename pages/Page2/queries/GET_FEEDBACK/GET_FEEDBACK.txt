@@ -1,0 +1,5 @@
+{
+	"CourseID": "{{CourseJSONForm.formData.CourseID}}",
+ "Name": "{{CourseJSONForm.formData.Name}}",
+ "Description": "{{CourseJSONForm.formData.Description}}"
+}
