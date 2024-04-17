@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1090,
+          "bottomRow": 1820,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -44,7 +44,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "JSONForm2.formData.studentID"
+                "JSONForm3.sourceData.planName",
+                "JSONForm2.sourceData.studentID"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -54,7 +55,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "JSONForm2.formData.studentID"
+                "JSONForm2.sourceData.studentID"
               ],
               "timeoutInMillisecond": 10000
             }
