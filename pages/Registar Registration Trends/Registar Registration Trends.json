@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Registar ADD Remove Course",
-    "slug": "registar-add-remove-course",
+    "name": "Registar Registration Trends",
+    "slug": "registar-registration-trends",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1730,
+          "bottomRow": 1230,
           "containerStyle": "none",
-          "snapRows": 128,
+          "snapRows": 86,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1300,
+          "minHeight": 880,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,15 +28,15 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Registar ADD Remove Course_GetCourses",
-              "name": "GetCourses",
+              "id": "Registar Registration Trends_ALL_AcademicPolicies",
+              "name": "ALL_AcademicPolicies",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Registar ADD Remove Course_Top10Registration",
+              "id": "Registar Registration Trends_Top10Registration",
               "name": "Top10Registration",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -47,7 +47,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Registar ADD Remove Course",
+        "id": "Registar Registration Trends",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -58,5 +58,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661f781b1578ab44f71ab0fc_66201ac61578ab44f71ab12e"
+  "gitSyncId": "661f781b1578ab44f71ab0fc_6620097d1578ab44f71ab112"
 }

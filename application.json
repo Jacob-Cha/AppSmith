@@ -13,7 +13,11 @@
       "isDefault": true
     },
     {
-      "id": "Page3",
+      "id": "Registar Registration Trends",
+      "isDefault": false
+    },
+    {
+      "id": "Page4",
       "isDefault": false
     }
   ],
