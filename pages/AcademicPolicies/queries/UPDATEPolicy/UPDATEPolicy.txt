@@ -1,0 +1,7 @@
+{
+	"PolicyID": "{{PolicyUpdateForm.formData.PolicyID}}",
+	"CourseID": "{{PolicyUpdateForm.formData.CourseID}}",
+	"Title": "{{PolicyUpdateForm.formData.Title}}",
+	"Description": "{{PolicyUpdateForm.formData.Description}}",
+	"EffectiveDate": "{{PolicyUpdateForm.formData.EffectiveDate}}"
+}

@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 67,
+    "topRow": 8,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -20,7 +20,7 @@
         {"key": "primaryColumns.Title.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 1,
+    "leftColumn": 0,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -63,7 +63,7 @@
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 102,
-    "widgetName": "Table2",
+    "widgetName": "AcademicPolicyTable",
     "defaultPageSize": 0,
     "columnOrder": [
         "CourseID",
@@ -74,7 +74,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 123,
+    "bottomRow": 64,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -84,7 +84,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "CourseID": {
-            "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"CourseID\"]))}}",
+            "computedValue": "{{AcademicPolicyTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"CourseID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "CourseID",
@@ -115,7 +115,7 @@
             "verticalAlignment": "CENTER"
         },
         "Description": {
-            "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Description\"]))}}",
+            "computedValue": "{{AcademicPolicyTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Description\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Description",
@@ -146,7 +146,7 @@
             "verticalAlignment": "CENTER"
         },
         "Title": {
-            "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Title\"]))}}",
+            "computedValue": "{{AcademicPolicyTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Title\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Title",
@@ -177,7 +177,7 @@
             "verticalAlignment": "CENTER"
         },
         "PolicyID": {
-            "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"PolicyID\"]))}}",
+            "computedValue": "{{AcademicPolicyTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"PolicyID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "PolicyID",
@@ -208,7 +208,7 @@
             "verticalAlignment": "CENTER"
         },
         "EffectiveDate": {
-            "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"EffectiveDate\"]))}}",
+            "computedValue": "{{AcademicPolicyTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"EffectiveDate\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "EffectiveDate",
@@ -242,7 +242,7 @@
     "key": "a2gpnoqxic",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 46,
+    "rightColumn": 47,
     "textSize": "0.875rem",
     "widgetId": "k93195pfp4",
     "minWidth": 450,

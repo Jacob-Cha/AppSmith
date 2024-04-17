@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Registar Registration Trends",
-    "slug": "registar-registration-trends",
+    "name": "AcademicPolicies",
+    "slug": "academicpolicies",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1230,
+          "bottomRow": 1200,
           "containerStyle": "none",
           "snapRows": 86,
           "parentRowSpace": 1,
@@ -28,16 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Registar Registration Trends_ALL_AcademicPolicies",
+              "id": "AcademicPolicies_ALL_AcademicPolicies",
               "name": "ALL_AcademicPolicies",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Registar Registration Trends_Top10Registration",
-              "name": "Top10Registration",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -47,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Registar Registration Trends",
+        "id": "AcademicPolicies",
         "deleted": false,
         "policies": [],
         "userPermissions": []

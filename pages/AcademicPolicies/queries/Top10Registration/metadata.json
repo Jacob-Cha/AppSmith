@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "EnrollmentByMajor",
+    "name": "Top10Registration",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "Web:4000/co/courses/enrollment-by-major"
+        "url": "Web:4000/co/courses/top-enrollment"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Registar Registration Trends",
+    "pageId": "AcademicPolicies",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -48,9 +48,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T21:34:38Z"
+    "createdAt": "2024-04-17T21:23:05Z"
   },
-  "id": "Registar Registration Trends_EnrollmentByMajor",
+  "id": "AcademicPolicies_Top10Registration",
   "deleted": false,
-  "gitSyncId": "661f781b1578ab44f71ab0fc_6620406e1578ab44f71ab141"
+  "gitSyncId": "661f781b1578ab44f71ab0fc_66203db91578ab44f71ab13f"
 }
