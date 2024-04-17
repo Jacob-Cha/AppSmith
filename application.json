@@ -1,6 +1,10 @@
 {
   "pages": [
     {
+      "id": "Registar ADD Remove Course",
+      "isDefault": false
+    },
+    {
       "id": "Registar 1 UI",
       "isDefault": false
     },
@@ -10,10 +14,6 @@
     },
     {
       "id": "Page3",
-      "isDefault": false
-    },
-    {
-      "id": "Registar ADD Remove Course",
       "isDefault": false
     }
   ],

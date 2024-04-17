@@ -13,19 +13,31 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 870,
+          "bottomRow": 1100,
           "containerStyle": "none",
-          "snapRows": 86,
+          "snapRows": 128,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 880,
+          "minHeight": 1300,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Registar ADD Remove Course_GetCourses",
+              "name": "GetCourses",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Registar ADD Remove Course",
         "deleted": false,
@@ -38,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661f781b1578ab44f71ab0fc_6620166b1578ab44f71ab12a"
+  "gitSyncId": "661f781b1578ab44f71ab0fc_66201ac61578ab44f71ab12e"
 }
