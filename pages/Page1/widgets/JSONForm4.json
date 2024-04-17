@@ -149,7 +149,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.studentID))(JSONForm4.sourceData, JSONForm4.formData, JSONForm4.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm4.sourceData, JSONForm4.formData, JSONForm4.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "studentID",
                 "isVisible": true,
                 "label": "Student ID",
@@ -160,8 +160,8 @@
                 "iconAlign": "left",
                 "position": 2,
                 "isDisabled": false,
-                "sourceData": 5,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             },
             "planName": {
                 "labelTextSize": "0.875rem",
@@ -193,7 +193,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.planID))(JSONForm4.sourceData, JSONForm4.formData, JSONForm4.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm4.sourceData, JSONForm4.formData, JSONForm4.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "planID",
                 "isVisible": true,
                 "label": "Plan ID",
@@ -204,8 +204,8 @@
                 "iconAlign": "left",
                 "position": 0,
                 "isDisabled": false,
-                "sourceData": 3,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             }
         },
         "position": -1,
