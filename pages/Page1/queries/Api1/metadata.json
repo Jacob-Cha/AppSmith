@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "GETAllTeachers",
+    "name": "Api1",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "Web:4000/t/Teacher"
+        "url": "Web:4000/s/students"
       },
       "invalids": [],
       "messages": [],
@@ -38,7 +38,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -48,9 +48,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T05:32:04Z"
+    "createdAt": "2024-04-17T16:43:53Z"
   },
-  "id": "Page1_GETAllTeachers",
+  "id": "Page1_Api1",
   "deleted": false,
-  "gitSyncId": "661f5eb35cf95f39f198104e_661f5ed45cf95f39f1981053"
+  "gitSyncId": "661f799ae2eded3bb29d737f_661ffc49e2eded3bb29d7387"
 }
