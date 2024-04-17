@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 3,
-    "bottomRow": 7,
+    "topRow": 0,
+    "bottomRow": 4,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 6.42333984375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 1,
+    "leftColumn": 7,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "borderRadius"},
@@ -30,7 +30,7 @@
     "text": "Academic Policy Information\n",
     "key": "ph5glqkph7",
     "isDeprecated": false,
-    "rightColumn": 37,
+    "rightColumn": 43,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "awxwg22ta5",
