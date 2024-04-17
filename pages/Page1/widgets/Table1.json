@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 4,
+    "topRow": 14,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -18,7 +18,7 @@
         {"key": "primaryColumns.LastName.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 3,
+    "leftColumn": 6,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -27,6 +27,7 @@
     "isVisible": true,
     "enableClientSideSearch": true,
     "version": 2,
+    "textColor": "#22c55e",
     "totalRecordsCount": 0,
     "tags": [
         "Suggested",
@@ -57,7 +58,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713338510842,
+    "columnUpdatedAt": 1713339713028,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 32,
@@ -70,7 +71,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 32,
+    "bottomRow": 87,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -98,6 +99,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "Email",
+            "textColor": "#22c55e",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -108,6 +110,7 @@
             "sticky": "",
             "originalId": "Email",
             "currencyCode": "USD",
+            "cellBackground": "#fef9c3",
             "verticalAlignment": "CENTER"
         },
         "FirstName": {
@@ -128,7 +131,8 @@
             "index": 1,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "FirstName",
+            "label": "First Name",
+            "textColor": "#22c55e",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -139,6 +143,7 @@
             "sticky": "",
             "originalId": "FirstName",
             "currencyCode": "USD",
+            "cellBackground": "#fef9c3",
             "verticalAlignment": "CENTER"
         },
         "LastName": {
@@ -159,7 +164,8 @@
             "index": 2,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "LastName",
+            "label": "Last Name",
+            "textColor": "#22c55e",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -170,17 +176,18 @@
             "sticky": "",
             "originalId": "LastName",
             "currencyCode": "USD",
+            "cellBackground": "#fef9c3",
             "verticalAlignment": "CENTER"
         }
     },
     "key": "n9fykx19w2",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 37,
+    "rightColumn": 39,
     "textSize": "0.875rem",
     "widgetId": "s5mk1ljs6t",
     "minWidth": 450,
-    "tableData": "{{Api1.data}}",
+    "tableData": "{{GETAllTeachers.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",
@@ -191,5 +198,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 3,
     "isVisiblePagination": true,
+    "cellBackground": "#fef9c3",
     "verticalAlignment": "CENTER"
 }

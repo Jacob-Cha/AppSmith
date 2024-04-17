@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 570,
+          "bottomRow": 870,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,8 +29,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_Api1",
-              "name": "Api1",
+              "id": "Page1_GETAllTeachers",
+              "name": "GETAllTeachers",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
