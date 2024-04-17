@@ -1,0 +1,9 @@
+{
+	"CourseID": "{{UpdateCourseForm.formData.CourseID}}",
+	"Name": "{{UpdateCourseForm.formData.Name}}",
+	"Credit_Hours": "{{UpdateCourseForm.formData.Credit_Hours}}",
+	"Description": "{{UpdateCourseForm.formData.Description}}",
+	"Pre_req": "{{UpdateCourseForm.formData.Pre_req}}",
+	"Teacher_ID": "{{UpdateCourseForm.formData.Teacher_ID}}",
+	"DepartmentKey": "{{UpdateCourseForm.formData.DepartmentKey}}"
+}
