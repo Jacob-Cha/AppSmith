@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page2",
+    "pageId": "Registar 1 UI",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -57,7 +57,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-17T17:52:52Z"
   },
-  "id": "Page2_SpecificCourseDetails",
+  "id": "Registar 1 UI_SpecificCourseDetails",
   "deleted": false,
   "gitSyncId": "661f781b1578ab44f71ab0fc_66200c741578ab44f71ab123"
 }

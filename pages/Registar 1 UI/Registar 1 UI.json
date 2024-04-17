@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page2",
-    "slug": "page2",
+    "name": "Registar 1 UI",
+    "slug": "registar-1-ui",
     "layouts": [
       {
         "viewMode": false,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page2_GetCourses",
+              "id": "Registar 1 UI_GetCourses",
               "name": "GetCourses",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -38,7 +38,7 @@
           ],
           [
             {
-              "id": "Page2_GetEnrollmentStatusForSpecific",
+              "id": "Registar 1 UI_GetEnrollmentStatusForSpecific",
               "name": "GetEnrollmentStatusForSpecific",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -51,7 +51,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page2",
+        "id": "Registar 1 UI",
         "deleted": false,
         "policies": [],
         "userPermissions": []
