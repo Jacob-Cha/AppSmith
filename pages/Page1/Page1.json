@@ -44,7 +44,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "",
                 "JSONForm2.formData.studentID"
               ],
               "timeoutInMillisecond": 10000
