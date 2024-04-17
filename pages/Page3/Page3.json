@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 870,
+          "bottomRow": 880,
           "containerStyle": "none",
           "snapRows": 86,
           "parentRowSpace": 1,
@@ -25,7 +25,35 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Page3_GET_TEACHERS",
+              "name": "GET_TEACHERS",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Page3_GET_COURSES",
+              "name": "GET_COURSES",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "TeachersJSONForm.formData.TeacherId",
+                "TeachersJSONForm.formData.LastName",
+                "TeachersJSONForm.formData.FirstName",
+                "TeachersJSONForm.formData.DepartmentKey",
+                "TeachersJSONForm.formData.Email"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Page3",
         "deleted": false,
