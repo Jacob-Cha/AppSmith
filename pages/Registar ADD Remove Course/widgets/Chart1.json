@@ -5,7 +5,7 @@
     "topRow": 123,
     "type": "CHART_WIDGET",
     "chartData": {"4x996jl6hi": {
-        "data": "[\n  {\n    \"x\": \"History202\",\n    \"y\": {{ Top10Registration.data[0]['Total_Enrollment'] }}\n  },\n  {\n    \"x\": \"ArtHistory202\",\n    \"y\": {{ Top10Registration.data[1]['Total_Enrollment'] }}\n  },\n  {\n    \"x\": \"Math101\",\n    \"y\": {{ Top10Registration.data[2]['Total_Enrollment'] }}\n  }\n]\n",
+        "data": "[\n  {\n    \"x\": {{ Top10Registration.data[0]['Name'] }},\n    \"y\": {{ Top10Registration.data[0]['Total_Enrollment'] }}\n  },\n  {\n    \"x\": {{ Top10Registration.data[1]['Name'] }},\n    \"y\": {{ Top10Registration.data[1]['Total_Enrollment'] }}\n  },\n  {\n    \"x\": {{ Top10Registration.data[2]['Name'] }},\n    \"y\": {{ Top10Registration.data[2]['Total_Enrollment'] }}\n  }\n]\n",
         "seriesName": "2023"
     }},
     "animateLoading": true,
@@ -24,7 +24,7 @@
     "version": 1,
     "tags": ["Display"],
     "isLoading": false,
-    "chartName": "Top 3 Enrolled Courses",
+    "chartName": "Top Enrolled Courses",
     "borderRadius": "0px",
     "xAxisName": "Enrollment",
     "originalBottomRow": 168,
