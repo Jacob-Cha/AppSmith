@@ -231,7 +231,7 @@
                 "dataType": "null",
                 "accessor": "Pre_req",
                 "isVisible": true,
-                "label": "Pre Req",
+                "label": "Pre Requisites",
                 "originalIdentifier": "Pre_req",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(NewCourse.sourceData, NewCourse.formData, NewCourse.fieldState)}}",
                 "children": {},
