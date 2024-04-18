@@ -19,6 +19,10 @@
     {
       "id": "Page4",
       "isDefault": false
+    },
+    {
+      "id": "StudentCourseFeedback",
+      "isDefault": false
     }
   ],
   "viewMode": false,

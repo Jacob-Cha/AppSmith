@@ -1,5 +1,5 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
     "allowScroll": false,
     "iconSVG": "/static/media/icon.8eea39845729f7f4bfadeecd3810a09d.svg",
     "topRow": 123,
@@ -12,8 +12,6 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "dynamicBindingPathList": [
         {"key": "customEChartConfig"},
-        {"key": "borderRadius"},
-        {"key": "boxShadow"},
         {"key": "accentColor"},
         {"key": "fontFamily"}
     ],
@@ -26,7 +24,7 @@
     "tags": ["Display"],
     "isLoading": false,
     "chartName": "Top 3 Enrolled Courses",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "0px",
     "xAxisName": "Enrollment",
     "originalBottomRow": 168,
     "needsErrorInfo": true,
