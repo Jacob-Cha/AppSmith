@@ -381,7 +381,7 @@
     },
     "dynamicPropertyPathList": [{"key": "onSubmit"}],
     "displayName": "JSON Form",
-    "bottomRow": 38,
+    "bottomRow": 41,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Remove Course",

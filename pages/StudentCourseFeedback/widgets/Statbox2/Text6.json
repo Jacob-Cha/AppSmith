@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 20,
-    "bottomRow": 25,
+    "topRow": 8,
+    "bottomRow": 14,
     "type": "TEXT_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 37,

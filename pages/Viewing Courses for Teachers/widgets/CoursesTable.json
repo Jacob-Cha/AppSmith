@@ -1,9 +1,9 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "borderColor": "#fee2e2",
+    "borderColor": "#fca5a5",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
-    "topRow": 43,
+    "topRow": 69,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -58,11 +58,11 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1713380873940,
-    "originalBottomRow": 73,
+    "originalBottomRow": 87,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 62,
-    "widgetName": "Table1",
+    "widgetName": "CoursesTable",
     "defaultPageSize": 0,
     "columnOrder": [
         "Name",
@@ -71,7 +71,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 73,
+    "bottomRow": 87,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -81,7 +81,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "CourseID": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"CourseID\"]))}}",
+            "computedValue": "{{CoursesTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"CourseID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "CourseID",
@@ -113,7 +113,7 @@
             "verticalAlignment": "CENTER"
         },
         "Description": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Description\"]))}}",
+            "computedValue": "{{CoursesTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Description\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Description",
@@ -145,7 +145,7 @@
             "verticalAlignment": "CENTER"
         },
         "Name": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Name\"]))}}",
+            "computedValue": "{{CoursesTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Name\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Name",
@@ -194,7 +194,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 43,
+    "originalTopRow": 69,
     "mobileLeftColumn": 28,
     "isVisiblePagination": true,
     "cellBackground": "#fee2e2",

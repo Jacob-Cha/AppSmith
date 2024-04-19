@@ -1,0 +1,68 @@
+{
+    "needsErrorInfo": false,
+    "isCompact": false,
+    "boxShadow": "none",
+    "mobileBottomRow": 58,
+    "widgetName": "TeacherButton",
+    "displayName": "Menu button",
+    "iconSVG": "/static/media/icon.33a4057faa7212849fa6ff1f15f2da0f.svg",
+    "topRow": 54,
+    "bottomRow": 64,
+    "parentRowSpace": 10,
+    "type": "MENU_BUTTON_WIDGET",
+    "hideCard": false,
+    "mobileRightColumn": 23,
+    "animateLoading": true,
+    "parentColumnSpace": 11.828125,
+    "dynamicTriggerPathList": [
+        {"key": "menuItems.menuItem1.onClick"},
+        {"key": "menuItems.menuItem2.onClick"}
+    ],
+    "leftColumn": 36,
+    "dynamicBindingPathList": [
+        {"key": "menuColor"},
+        {"key": "borderRadius"}
+    ],
+    "isDisabled": false,
+    "key": "j1fohgv1es",
+    "isDeprecated": false,
+    "rightColumn": 62,
+    "thumbnailSVG": "/static/media/thumbnail.57aa4a1b6aaab3ade6ce3bc3a1177531.svg",
+    "menuVariant": "PRIMARY",
+    "widgetId": "yoarlcbair",
+    "menuItems": {
+        "menuItem1": {
+            "onClick": "{{navigateTo('Viewing Courses for Teachers', {}, 'SAME_WINDOW');}}",
+            "widgetId": "",
+            "index": 0,
+            "label": "View My Courses",
+            "id": "menuItem1",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "menuItem2": {
+            "onClick": "{{navigateTo('Viewing Feedback for Teachers', {}, 'SAME_WINDOW');}}",
+            "widgetId": "",
+            "index": 1,
+            "label": "View My Feedback",
+            "id": "menuItem2",
+            "isVisible": true,
+            "isDisabled": false
+        }
+    },
+    "isVisible": true,
+    "label": "Teacher",
+    "version": 1,
+    "parentId": "0",
+    "tags": ["Buttons"],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 54,
+    "originalTopRow": 51,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 7,
+    "menuItemsSource": "STATIC",
+    "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+    "originalBottomRow": 61,
+    "placement": "CENTER"
+}

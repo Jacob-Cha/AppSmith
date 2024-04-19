@@ -130,7 +130,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 113,
+    "originalBottomRow": 116,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -286,7 +286,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 113,
+    "bottomRow": 116,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Add New Policy",

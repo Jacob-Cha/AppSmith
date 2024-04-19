@@ -11,7 +11,7 @@
         "label"
     ],
     "topRow": 4,
-    "bottomRow": 20,
+    "bottomRow": 8,
     "type": "TEXT_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 37,

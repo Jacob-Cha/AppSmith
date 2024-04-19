@@ -3,11 +3,11 @@
     "isCompact": false,
     "boxShadow": "none",
     "mobileBottomRow": 51,
-    "widgetName": "MenuButton1",
+    "widgetName": "RegistarButton",
     "displayName": "Menu button",
     "iconSVG": "/static/media/icon.631848e88e7a3db05f6015f22835e81b.svg",
-    "topRow": 15,
-    "bottomRow": 25,
+    "topRow": 25,
+    "bottomRow": 35,
     "parentRowSpace": 10,
     "type": "MENU_BUTTON_WIDGET",
     "hideCard": false,
@@ -19,7 +19,7 @@
         {"key": "menuItems.menuItem2.onClick"},
         {"key": "menuItems.menuItem3.onClick"}
     ],
-    "leftColumn": 4,
+    "leftColumn": 2,
     "dynamicBindingPathList": [
         {"key": "menuColor"},
         {"key": "borderRadius"}
@@ -27,7 +27,7 @@
     "isDisabled": false,
     "key": "uivxgqviie",
     "isDeprecated": false,
-    "rightColumn": 30,
+    "rightColumn": 28,
     "menuVariant": "PRIMARY",
     "widgetId": "mx06n7sks5",
     "menuItems": {
@@ -67,11 +67,11 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "mobileTopRow": 47,
-    "originalTopRow": 15,
+    "originalTopRow": 19,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 13,
     "menuItemsSource": "STATIC",
     "menuColor": "{{appsmith.theme.colors.primaryColor}}",
-    "originalBottomRow": 25,
+    "originalBottomRow": 29,
     "placement": "CENTER"
 }
