@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1190,
+          "bottomRow": 1620,
           "containerStyle": "none",
           "snapRows": 86,
           "parentRowSpace": 1,
@@ -44,6 +44,16 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "DisplayFeedbackForm.formData.CourseID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "StudentCourseFeedback_ViewFeedback",
+              "name": "ViewFeedback",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "ViewFeedbackForm.formData.CourseID"
               ],
               "timeoutInMillisecond": 10000
             }

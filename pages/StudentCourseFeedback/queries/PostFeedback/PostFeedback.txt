@@ -1,0 +1,7 @@
+{
+	"feedbackID": "{{JSONForm1.formData.feedbackID}}",
+	"studentID": "{{JSONForm1.formData.studentID}}",
+	"comments": "{{JSONForm1.formData.comments}}",
+	"rating": "{{JSONForm1.formData.rating}}",
+	"courseID": "{{JSONForm1.formData.courseID}}"
+}
