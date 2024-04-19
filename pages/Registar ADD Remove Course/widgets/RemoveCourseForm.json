@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
     "onSubmit": "{{RemoveCourse.run().then(() => {\n  GetCourses.run();\n});}}",
-    "topRow": 76,
+    "topRow": 69,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
     "leftColumn": 40,
@@ -43,7 +43,7 @@
     "showReset": true,
     "flexVerticalAlignment": "start",
     "dynamicHeight": "AUTO_HEIGHT",
-    "autoGenerateForm": true,
+    "autoGenerateForm": false,
     "resetButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -137,8 +137,8 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 110,
-    "useSourceData": false,
+    "originalBottomRow": 111,
+    "useSourceData": true,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
         "identifier": "__root_schema__",
@@ -282,7 +282,7 @@
                 "iconAlign": "left",
                 "position": 1,
                 "isDisabled": false,
-                "sourceData": 4,
+                "sourceData": 1,
                 "fieldType": "Number Input"
             },
             "Name": {
@@ -332,7 +332,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 110,
+    "bottomRow": 96,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Remove Course",
@@ -355,7 +355,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 76,
+    "originalTopRow": 77,
     "mobileLeftColumn": 40,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

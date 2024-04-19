@@ -137,7 +137,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 48,
+    "originalBottomRow": 51,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -173,7 +173,7 @@
                 "iconAlign": "left",
                 "position": 2,
                 "isDisabled": false,
-                "sourceData": 20,
+                "sourceData": 52,
                 "fieldType": "Number Input"
             },
             "CourseID": {
@@ -195,7 +195,7 @@
                 "iconAlign": "left",
                 "position": 0,
                 "isDisabled": false,
-                "sourceData": 8,
+                "sourceData": 2,
                 "fieldType": "Number Input"
             },
             "Description": {
@@ -260,7 +260,7 @@
                 "iconAlign": "left",
                 "position": 6,
                 "isDisabled": false,
-                "sourceData": 53,
+                "sourceData": 15,
                 "fieldType": "Number Input"
             },
             "Credit_Hours": {
@@ -273,7 +273,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(DisplayFeedbackForm.sourceData, DisplayFeedbackForm.formData, DisplayFeedbackForm.fieldState)}}",
                 "dataType": "number",
                 "accessor": "Credit_Hours",
-                "isVisible": false,
+                "isVisible": true,
                 "label": "Credit Hours",
                 "originalIdentifier": "Credit_Hours",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(DisplayFeedbackForm.sourceData, DisplayFeedbackForm.formData, DisplayFeedbackForm.fieldState)}}",
@@ -282,7 +282,7 @@
                 "iconAlign": "left",
                 "position": 1,
                 "isDisabled": false,
-                "sourceData": 2,
+                "sourceData": 4,
                 "fieldType": "Number Input"
             },
             "Name": {
@@ -332,7 +332,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 51,
+    "bottomRow": 59,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Calculate Average Feedback",

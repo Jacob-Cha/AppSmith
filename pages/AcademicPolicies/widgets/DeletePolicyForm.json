@@ -131,7 +131,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 91,
+    "originalBottomRow": 98,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -158,7 +158,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(DeletePolicyForm.sourceData, DeletePolicyForm.formData, DeletePolicyForm.fieldState)}}",
                 "dataType": "number",
                 "accessor": "CourseID",
-                "isVisible": false,
+                "isVisible": true,
                 "label": "Course ID",
                 "originalIdentifier": "CourseID",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(DeletePolicyForm.sourceData, DeletePolicyForm.formData, DeletePolicyForm.fieldState)}}",
@@ -167,7 +167,7 @@
                 "iconAlign": "left",
                 "position": 0,
                 "isDisabled": false,
-                "sourceData": 13,
+                "sourceData": 11,
                 "fieldType": "Number Input"
             },
             "Description": {
@@ -233,7 +233,7 @@
                 "iconAlign": "left",
                 "position": 3,
                 "isDisabled": false,
-                "sourceData": 1,
+                "sourceData": 2,
                 "fieldType": "Number Input"
             },
             "EffectiveDate": {
@@ -282,7 +282,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 91,
+    "bottomRow": 98,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Delete Policy",

@@ -21,7 +21,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 18.28125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 19,
+    "leftColumn": 26,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -33,7 +33,7 @@
     "text": "RegisterUni Homepage",
     "key": "b179oqyu6a",
     "isDeprecated": false,
-    "rightColumn": 50,
+    "rightColumn": 57,
     "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
