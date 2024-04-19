@@ -1,0 +1,7 @@
+{
+	"TeacherId": "{{TeachersJSONForm.formData.TeacherId}}",
+	"FirstName": "{{TeachersJSONForm.formData.FirstName}}",
+	"LastName": "{{TeachersJSONForm.formData.LastName}}",
+	"Email": "{{TeachersJSONForm.formData.Email}}",
+	"DepartmentKey": "{{TeachersJSONForm.formData.DepartmentKey}}"
+}

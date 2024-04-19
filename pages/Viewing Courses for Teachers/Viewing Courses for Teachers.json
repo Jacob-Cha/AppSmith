@@ -1,0 +1,70 @@
+{
+  "unpublishedPage": {
+    "name": "Viewing Courses for Teachers",
+    "slug": "viewing-courses-for-teachers",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 870,
+          "containerStyle": "none",
+          "snapRows": 86,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 89,
+          "minHeight": 880,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Viewing Courses for Teachers_GET_TEACHERS",
+              "name": "GET_TEACHERS",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Viewing Courses for Teachers_GET_COURSES",
+              "name": "GET_COURSES",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "TeachersJSONForm.formData.TeacherId",
+                "TeachersJSONForm.formData.LastName",
+                "TeachersJSONForm.formData.FirstName",
+                "TeachersJSONForm.formData.DepartmentKey",
+                "TeachersJSONForm.formData.Email"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Viewing Courses for Teachers",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "661f781b1578ab44f71ab0fc_6620097d1578ab44f71ab112"
+}

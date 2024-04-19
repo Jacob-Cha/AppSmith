@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "GET_TEACHERS",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "Web:4000/t//teachers/6/courses"
+        "url": "web:4000/t/Teacher"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Viewing Feedback for Teachers",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -38,7 +38,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -48,9 +48,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T05:32:04Z"
+    "createdAt": "2024-04-17T19:18:08Z"
   },
-  "id": "Page1_Api1",
+  "id": "Viewing Feedback for Teachers_GET_TEACHERS",
   "deleted": false,
-  "gitSyncId": "661f5eb35cf95f39f198104e_661f5ed45cf95f39f1981053"
+  "gitSyncId": "662019a36ae79210d736d10d_662020706ae79210d736d11f"
 }

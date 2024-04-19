@@ -1,8 +1,16 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "throwaway",
       "isDefault": true
+    },
+    {
+      "id": "Viewing Feedback for Teachers",
+      "isDefault": false
+    },
+    {
+      "id": "Viewing Courses for Teachers",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -15,6 +23,12 @@
   },
   "color": "#C7F3E3",
   "icon": "shop",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
