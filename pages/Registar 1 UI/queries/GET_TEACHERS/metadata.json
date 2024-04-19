@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Viewing Feedback for Teachers",
+    "pageId": "Registar 1 UI",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -38,7 +38,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -48,9 +48,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T19:18:08Z"
+    "createdAt": "2024-04-17T21:20:16Z"
   },
-  "id": "Viewing Feedback for Teachers_GET_TEACHERS",
+  "id": "Registar 1 UI_GET_TEACHERS",
   "deleted": false,
-  "gitSyncId": "662019a36ae79210d736d10d_662020706ae79210d736d11f"
+  "gitSyncId": "662019a36ae79210d736d10d_66203d106ae79210d736d127"
 }

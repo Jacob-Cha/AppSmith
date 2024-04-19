@@ -1,16 +1,8 @@
 {
   "pages": [
     {
-      "id": "throwaway",
+      "id": "Registar 1 UI",
       "isDefault": true
-    },
-    {
-      "id": "Viewing Feedback for Teachers",
-      "isDefault": false
-    },
-    {
-      "id": "Viewing Courses for Teachers",
-      "isDefault": false
     }
   ],
   "viewMode": false,
