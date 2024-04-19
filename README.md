@@ -1,11 +1,13 @@
-# AppSmith![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
+# RegistarUni AppSmith!
 
-This app is built using Appsmith. Turn any datasource into an internal app in minutes. Appsmith lets you drag-and-drop components to build dashboards, write logic with JavaScript objects and connect to any API, database or GraphQL source.
+This app is built using Appsmith. Turn your course registration datasource into an internal app in minutes. Appsmith lets you drag-and-drop components to build dashboards, write logic with JavaScript objects and connect to any API, database or GraphQL source.
 
-![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/images/integrations.png)
+## UI description:
+1. Registar: as a university registar, you can add, remove, and update course details, academic policies, upon viewing enrollment status
+2. Teacher: as a teacher, you can view all the courses that you're teaching and the courses' feedback from your students
+3. Advisor: as an advisor, you can view help the student update, add, or remove a plan, and also browse classes available
+4. Student: as a student, you can view your current courses and add/remove courses upon browsing the courses. You can also view the feedback for the courses and add your own feedback to the courses.
 
-### [Github](https://github.com/appsmithorg/appsmith) • [Docs](https://docs.appsmith.com/?utm_source=github&utm_medium=social&utm_content=appsmith_docs&utm_campaign=null&utm_term=appsmith_docs) • [Community](https://community.appsmith.com/) • [Tutorials](https://github.com/appsmithorg/appsmith/tree/update/readme#tutorials) • [Youtube](https://www.youtube.com/appsmith) • [Discord](https://discord.gg/rBTTVJp)
-
-##### You can visit the application using the below link
-
-###### [![](https://assets.appsmith.com/git-sync/Buttons.svg) ](http://localhost:8080/applications/661f5eb35cf95f39f198104e/pages/661f5eb35cf95f39f1981051) [![](https://assets.appsmith.com/git-sync/Buttons2.svg)](http://localhost:8080/applications/661f5eb35cf95f39f198104e/pages/661f5eb35cf95f39f1981051/edit)
+## To run this app:
+1. Import the application from this GitHub using the SSH key
+2. Add your deploy key to get write access and view the app
