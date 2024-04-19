@@ -134,7 +134,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 107,
+    "originalBottomRow": 112,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -170,7 +170,7 @@
                 "iconAlign": "left",
                 "position": 0,
                 "isDisabled": false,
-                "sourceData": 1,
+                "sourceData": 14,
                 "fieldType": "Number Input"
             },
             "Description": {
@@ -236,7 +236,7 @@
                 "iconAlign": "left",
                 "position": 1,
                 "isDisabled": false,
-                "sourceData": 1,
+                "sourceData": 2,
                 "fieldType": "Number Input"
             },
             "DepartmentName": {
@@ -332,7 +332,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 44,
+    "originalTopRow": 47,
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

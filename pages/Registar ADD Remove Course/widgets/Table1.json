@@ -61,7 +61,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713469006045,
+    "columnUpdatedAt": 1713493778226,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 35,
@@ -105,7 +105,7 @@
             "index": 2,
             "isDiscardVisible": true,
             "isVisible": false,
-            "label": "DepartmentKey",
+            "label": "Department Key",
             "fontStyle": "",
             "textColor": "",
             "columnType": "number",
