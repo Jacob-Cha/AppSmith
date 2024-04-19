@@ -17,11 +17,23 @@
       "isDefault": false
     },
     {
-      "id": "Page4",
+      "id": "StudentCourseFeedback",
       "isDefault": false
     },
     {
-      "id": "StudentCourseFeedback",
+      "id": "Viewing Feedback for Teachers",
+      "isDefault": false
+    },
+    {
+      "id": "Viewing Courses for Teachers",
+      "isDefault": false
+    },
+    {
+      "id": "Advisor Student Plan",
+      "isDefault": false
+    },
+    {
+      "id": "Student Course Registration",
       "isDefault": false
     }
   ],
