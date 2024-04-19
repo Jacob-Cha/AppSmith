@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "throwaway",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -50,7 +50,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-17T21:20:16Z"
   },
-  "id": "Page1_GET_TEACHERS",
+  "id": "throwaway_GET_TEACHERS",
   "deleted": false,
   "gitSyncId": "662019a36ae79210d736d10d_66203d106ae79210d736d127"
 }
