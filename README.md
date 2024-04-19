@@ -10,4 +10,4 @@ This app is built using Appsmith. Turn your course registration datasource into 
 
 ## To run this app:
 1. Import the application from this GitHub using the SSH key
-2. 
+2. Add your deploy key to get write access and view the app
